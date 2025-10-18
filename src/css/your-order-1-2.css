@@ -1,4 +1,4 @@
-.container {
+.order-container {
   max-width: 335px;
   margin: 0 auto;
 }
@@ -112,7 +112,7 @@ h2 .blushword {
 }
 
 @media (min-width: 768px) {
-  .container {
+  .order-container {
     max-width: 768px;
     margin: 0 auto;
   }
@@ -168,7 +168,7 @@ h2 .blushword {
 }
 
 @media (min-width: 1280px) {
-  .container {
+  .order-container {
     max-width: 1280px;
     margin: 0 auto;
   }
@@ -197,5 +197,8 @@ h2 .blushword {
 
   .covered {
     display: none;
+  }
+
+  .social-box {
   }
 }
