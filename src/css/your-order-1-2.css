@@ -99,6 +99,21 @@ h2 .blushword {
   outline: none;
 }
 
+.form-input:hover,
+.form-textarea:hover,
+.form-input:focus,
+.form-textarea:focus {
+  border: 1px solid #7a3145;
+}
+
+.form input[type='email']:not(:placeholder-shown):valid {
+  border-color: #3cbc81; /* yeşil */
+}
+
+.form input[type='email']:not(:placeholder-shown):invalid {
+  border-color: #e74a3b; /* kırmızı */
+}
+
 .submit-btn {
   background-color: #7a3145;
   width: 100%;
