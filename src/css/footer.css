@@ -40,12 +40,12 @@ body {
 .footer {
   background-color: #7a3145;
 }
-.container {
+.footer-container {
   padding: 40px 20px;
   display: flex;
   flex-direction: column;
   width: 100%;
-  max-width: 320px;
+  max-width: 375px;
   margin: 0 auto;
 }
 .footer-first-div {
@@ -55,6 +55,7 @@ body {
 }
 .footer-logo {
   color: #fbfbfb;
+  text-decoration: none;
 }
 .footer-p {
   color: #fbfbfb;
@@ -128,8 +129,16 @@ address {
   font-size: 14px;
   line-height: 1.42857;
 }
+.footer-logo-svg {
+  display: flex;
+  gap: 8.89px;
+}
+.icon-grid {
+  width: 20px;
+  height: 20px;
+}
 @media (min-width: 768px) {
-  .container {
+  .footer-container {
     max-width: 768px;
     margin: 0 auto;
     padding: 32px;
@@ -170,5 +179,30 @@ address {
     display: flex;
     flex-direction: row;
     gap: 318px;
+  }
+}
+@media (min-width: 1280px) {
+  .footer-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 52px 100px;
+  }
+  .flex-combine1 {
+    gap: 250px;
+    padding-bottom: 124px;
+  }
+  .flex-combine2 {
+    display: flex;
+    flex-direction: row;
+    gap: 121px;
+  }
+  .footer-third-div {
+    padding-top: 0;
+    width: 216px;
+  }
+  .footer-fourt-div {
+    width: 1080px;
+    gap: 686px;
+    justify-content: space-between;
   }
 }
