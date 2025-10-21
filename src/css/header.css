@@ -267,7 +267,7 @@ ul li {
   }
 }
 /*----------------------DESKTOP----------------------*/
-@media (min-width: 1281px) {
+@media screen and (min-width: 1280px) {
   button {
     border: none;
     background-color: none;
@@ -295,12 +295,21 @@ ul li {
   .container-menu {
     display: flex;
     flex-direction: row;
-    padding-top: 32px;
     justify-content: space-around;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 32px;
   }
   .side-panel {
     display: flex;
     flex-direction: row;
+    background-color: none;
+    width: auto;
+    padding: 0;
+    background: none;
+    height: 52px;
+    position: relative;
+    right: 0;
   }
   .side-container {
     padding: 0;
