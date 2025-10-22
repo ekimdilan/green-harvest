@@ -1,10 +1,3 @@
-body,
-h1,
-p {
-  margin: 0;
-  padding: 0;
-}
-
 .hero-container {
   width: 100%;
   height: 740px;
@@ -52,7 +45,6 @@ p {
 
 @media screen and (min-width: 768px) {
   .hero-container {
-    /* max-width: 768px; */
     height: auto;
     width: 100%;
     display: flex;
@@ -102,7 +94,6 @@ p {
     gap: 36px;
     position: absolute;
     height: 796px;
-    /* left: calc(50% - 1280px / 2); */
     top: 0px;
   }
 
@@ -133,10 +124,6 @@ p {
   }
 
   .hero-image img {
-    /* width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block; */
     margin: 0 auto;
     width: 100%;
     height: 796px;
