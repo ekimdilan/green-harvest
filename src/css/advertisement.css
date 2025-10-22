@@ -13,7 +13,7 @@
 .discount-text {
   font-size: 48px;
   color: #222222;
-  line-height: -1.5;
+  line-height: 1.5;
   margin: 0 auto;
   text-align: left;
 }
@@ -33,7 +33,6 @@
   padding: 0;
   white-space: nowrap;
   clip-path: inset(100%);
-  clip: rect(0 0 0 0);
   overflow: hidden;
 }
 @media (min-width: 768px) and (max-width: 1279px) {
