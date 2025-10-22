@@ -20,7 +20,6 @@
 }
 .footer-p {
   color: #fbfbfb;
-  font-family: 'Inter Tight', sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.42857;
@@ -28,7 +27,6 @@
 }
 .footer-link {
   color: #fbfbfb;
-  font-family: 'Inter Tight', sans-serif;
   font-size: 32px;
   font-weight: 600;
   line-height: 1;
@@ -58,14 +56,12 @@ address {
 .footer-phone {
   color: #fbfbfb;
   text-decoration: none;
-  font-family: 'Inter Tight', sans-serif;
   line-height: 1.42857;
   font-size: 14px;
   font-weight: 700;
 }
 .footer-address {
   color: #fbfbfb;
-  font-family: 'Inter Tight', sans-serif;
   font-size: 14px;
   font-weight: 700;
   width: 179px;
@@ -78,7 +74,6 @@ address {
 .policy-cookie {
   color: #d4bfc4;
   text-decoration: none;
-  font-family: 'Inter Tight', sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.42857;
@@ -86,7 +81,6 @@ address {
 
 .footer-info {
   color: #d4bfc4;
-  font-family: 'Inter Tight', sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.42857;
