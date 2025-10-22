@@ -36,7 +36,7 @@ ul li {
   font-weight: 600;
   font-style: bold;
   font-family: 'Inter Tight', sans-serif;
-  color: white;
+  color: #fbfbfb;
 }
 .logo-a {
   align-items: center;
@@ -84,7 +84,7 @@ ul li {
 .menu-item a {
   width: 118px;
   height: 44px;
-  border: 1px solid white;
+  border: 1px solid #fbfbfb;
   gap: 10px;
   border-radius: 12px;
   display: flex;
@@ -94,12 +94,12 @@ ul li {
 }
 .menu-item a:hover,
 .menu-item a:focus {
-  background-color: white;
+  background-color: #fbfbfb;
   color: rgba(122, 49, 69, 1);
 }
 
 .menu-item a {
-  color: white;
+  color: #fbfbfb;
   font-size: 16px;
   font-weight: 500;
   line-height: 20px;
@@ -122,7 +122,7 @@ ul li {
   align-items: center;
   margin: 0 auto;
   margin-bottom: 32px;
-  color: white;
+  color: #fbfbfb;
   font-family: 'Inter Tight', sans-serif;
   font-size: 18px;
   font-weight: 600;
@@ -133,10 +133,10 @@ ul li {
 .shop-now button:hover,
 .shop-now button:focus {
   color: rgba(122, 49, 69, 1);
-  background-color: white;
+  background-color: #fbfbfb;
 }
 /* TABLET TASARIM */
-@media (max-width: 1280px) and (min-width: 768px) {
+@media (max-width: 1279px) and (min-width: 768px) {
   button {
     border: none;
     background-color: none;
@@ -169,7 +169,7 @@ ul li {
     font-weight: 600;
     font-style: bold;
     font-family: 'Inter Tight', sans-serif;
-    color: white;
+    color: #fbfbfb;
   }
   .logo-a {
     align-items: center;
@@ -187,7 +187,7 @@ ul li {
   }
   .side-panel {
     position: fixed;
-    right: -1281px;
+    right: -1280px;
     width: 45%;
     height: 100%;
     top: 0;
@@ -216,7 +216,7 @@ ul li {
   .menu-item a {
     width: 118px;
     height: 44px;
-    border: 1px solid white;
+    border: 1px solid #fbfbfb;
     gap: 10px;
     border-radius: 12px;
     display: flex;
@@ -226,12 +226,12 @@ ul li {
   }
   .menu-item a:hover,
   .menu-item a:focus {
-    background-color: white;
+    background-color: #fbfbfb;
     color: rgba(122, 49, 69, 1);
   }
 
   .menu-item a {
-    color: white;
+    color: #fbfbfb;
     font-size: 16px;
     font-weight: 500;
     line-height: 20px;
@@ -253,7 +253,7 @@ ul li {
     align-items: center;
     margin: 0 auto;
     margin-bottom: 32px;
-    color: white;
+    color: #fbfbfb;
     font-family: 'Inter Tight', sans-serif;
     font-size: 18px;
     font-weight: 600;
@@ -263,7 +263,7 @@ ul li {
   .shop-now button:hover,
   .shop-now button:focus {
     color: rgba(122, 49, 69, 1);
-    background-color: white;
+    background-color: #fbfbfb;
   }
 }
 /*----------------------DESKTOP----------------------*/
@@ -322,7 +322,7 @@ ul li {
   .menu-item a {
     width: 118px;
     height: 44px;
-    border: 1px solid white;
+    border: 1px solid #fbfbfb;
     gap: 10px;
     border-radius: 12px;
     display: flex;
@@ -332,12 +332,12 @@ ul li {
   }
   .menu-item a:hover,
   .menu-item a:focus {
-    background: #fff;
+    background: #fbfbfb;
     color: rgba(122, 49, 69, 1);
   }
 
   .menu-item a {
-    color: white;
+    color: #fbfbfb;
     font-size: 16px;
     font-weight: 500;
     line-height: 20px;
@@ -350,7 +350,7 @@ ul li {
     letter-spacing: 0.4px;
   }
   .logo-span {
-    color: white;
+    color: #fbfbfb;
     font-weight: 600;
     font-family: 'Inter Tight', sans-serif;
     font-size: 20px;
@@ -365,7 +365,7 @@ ul li {
     align-items: center;
     margin-left: 10px;
     transition: background 0.7s ease, color 0.7s ease;
-    color: white;
+    color: #fbfbfb;
     font-size: 18px;
     font-weight: 600;
     line-height: 20px;
@@ -375,6 +375,6 @@ ul li {
   .shop-now button:hover,
   .shop-now button:focus {
     color: rgba(122, 49, 69, 1);
-    background-color: white;
+    background-color: #fbfbfb;
   }
 }
