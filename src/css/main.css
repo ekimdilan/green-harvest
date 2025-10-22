@@ -1,3 +1,12 @@
+@import url('./header.css');
+@import url('./hero.css');
+@import url('./how-it-works.css');
+@import url('./advertisement.css');
+@import url('./vegetables.css');
+@import url('./reviews.css');
+@import url('./your-order-1-2.css');
+@import url('./footer.css');
+
 *,
 *::before,
 *::after {
@@ -8,11 +17,3 @@
 body {
   font-family: 'Inter Tight', sans-serif;
 }
-@import url('./header.css');
-@import url('./hero.css');
-@import url('./how-it-works.css');
-@import url('./advertisement.css');
-@import url('./vegetables.css');
-@import url('./reviews.css');
-@import url('./your-order-1-2.css');
-@import url('./footer.css');
