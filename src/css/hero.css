@@ -1,0 +1,131 @@
+.hero-container {
+  width: 100%;
+  height: 740px;
+  background-color: #576f35;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 100px 0px 0px;
+  gap: 40px;
+  margin: 0 auto;
+}
+.hero-text {
+  width: 335px;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 0px;
+  color: #fff;
+  gap: 20px;
+}
+.hero-text h1 {
+  font-weight: 600;
+  font-size: 52px;
+  line-height: 1;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #fbfbfb;
+}
+.hero-text p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.42857;
+  color: #fbfbfb;
+  gap: 10px;
+  padding: 0;
+}
+.hero-image img {
+  width: 100%;
+  height: 372px;
+  object-fit: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-container {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 58px;
+    padding: 120px 0px 0px;
+  }
+
+  .hero-text {
+    width: 100%;
+    gap: 24px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 48px 32px 0 32px;
+  }
+
+  .hero-text h1 {
+    font-size: 76px;
+  }
+
+  .hero-text p {
+    font-size: 16px;
+  }
+
+  .hero-image {
+    width: 100%;
+  }
+
+  .hero-image img {
+    width: 100%;
+    height: 480px;
+    object-fit: cover;
+    display: block;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .hero-container {
+    min-width: 1280px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0px 0px 0px 100px;
+    gap: 36px;
+    position: absolute;
+    height: 796px;
+    top: 0px;
+  }
+
+  .hero-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 0px 52px;
+    gap: 128px;
+    margin-bottom: 52px;
+    width: 504px;
+    height: 564px;
+  }
+
+  .hero-text h1 {
+    font-size: 76px;
+    line-height: 1;
+  }
+
+  .hero-text p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
+  .hero-image {
+    width: 50%;
+    height: 100%;
+  }
+
+  .hero-image img {
+    margin: 0 auto;
+    width: 100%;
+    height: 796px;
+  }
+}
