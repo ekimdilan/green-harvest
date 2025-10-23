@@ -70,6 +70,7 @@
   box-sizing: border-box;
   scroll-snap-align: start;
   margin-top: 40px;
+  max-width:344px;
 }
 
 
