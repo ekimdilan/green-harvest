@@ -95,6 +95,8 @@
     position: absolute;
     height: 796px;
     top: 0px;
+    position: relative;
+    z-index: 1;
   }
 
   .hero-text {
@@ -119,8 +121,8 @@
   }
 
   .hero-image {
-    width: 50%;
-    height: 100%;
+    width: 640px;
+    height: auto;
   }
 
   .hero-image img {
