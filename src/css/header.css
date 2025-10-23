@@ -275,7 +275,7 @@ ul li {
     padding: 0;
     background: none;
     height: 52px;
-    position: relative;
+    position: absolute;
     right: 0;
   }
   .side-container {
