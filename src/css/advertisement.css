@@ -2,6 +2,7 @@
   background-color: #ffffff;
   padding: 60px 20px;
   text-align: center;
+  min-width: 320px;
   height: 472px;
   max-width: 100%;
   font-optical-sizing: auto;
