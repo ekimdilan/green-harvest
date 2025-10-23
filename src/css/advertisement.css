@@ -44,7 +44,7 @@
 }
 @media (min-width: 1280px) {
   .promo-section {
-    height: 428px;
+    height: auto;
     width: 100%;
     padding: 100px 100px;
     gap: 10px;
