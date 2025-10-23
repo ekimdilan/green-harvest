@@ -78,6 +78,7 @@
     display: flex;
     align-items: center;
     gap: 15px; 
+    min-height:84px;
 }
 
 .hiw-steps-list li::before {
@@ -182,12 +183,8 @@
     line-height: 32px;
   }
 
-  .hiw-steps-section{
-    margin-top:60px;
-  }
-
   .how-it-works-description {
-    margin-bottom: 60px;
+    margin-bottom: 104px;
     font-size: 16px;
   }
 
