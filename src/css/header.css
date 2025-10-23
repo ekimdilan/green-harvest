@@ -265,7 +265,7 @@ ul li {
     justify-content: space-between;
     padding-left: 100px;
     padding-right: 100px;
-    position: relative;
+    position: absolute;
     padding-top: 32px;
   }
   .side-panel {
@@ -275,7 +275,7 @@ ul li {
     padding: 0;
     background: none;
     height: 52px;
-    position: absolute;
+    position: relative;
     right: 0;
   }
   .side-container {
