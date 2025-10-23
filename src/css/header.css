@@ -6,7 +6,6 @@
 
 .shop-now button {
   border: none;
-  background-color: none;
   cursor: pointer;
   font-family: 'Inter Tight', sans-serif;
 }
@@ -271,7 +270,6 @@ ul li {
   .side-panel {
     display: flex;
     flex-direction: row;
-    background-color: none;
     width: auto;
     padding: 0;
     background: none;
