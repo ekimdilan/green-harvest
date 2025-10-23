@@ -94,8 +94,9 @@
     font-size: 1em;
     flex-shrink: 0;
 }
-.hiw-steps-text{
-  font-weight:500;
+.hiw-step-text {
+  font-weight: 400;       
+  font-style: normal;
 }
 
 /* TABLET */
@@ -105,7 +106,7 @@
   }
 
   .how-it-works-img {
-    max-width: 640px;
+    width: 640px;
   }
 
   .hiw-section-content {
