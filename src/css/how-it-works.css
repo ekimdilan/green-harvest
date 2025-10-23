@@ -172,9 +172,13 @@
   }
 
   .hiw-section-content {
-    flex: 1;
-    padding: 100px 100px;
-    min-width:0;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+  }
+
+  .hiw-section-header{
+    margin-bottom:60px;
   }
 
   .how-it-works-title{
