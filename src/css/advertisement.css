@@ -1,8 +1,7 @@
 .promo-section {
   background-color: #ffffff;
-  padding: 80px 20px;
+  padding: 60px 20px;
   text-align: center;
-  min-width: 320px;
   height: 472px;
   max-width: 100%;
   font-optical-sizing: auto;
@@ -10,6 +9,7 @@
   font-style: normal;
 }
 .discount-text {
+  padding: 80px 20px;
   font-size: 48px;
   color: #222222;
   line-height: 1.5;
