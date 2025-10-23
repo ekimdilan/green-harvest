@@ -82,7 +82,7 @@
 @media  (min-width: 768px) {
 
     .vegetables-container{
-        min-width: 768px;
+        max-width: 768px;
 
     }
 
@@ -149,7 +149,7 @@
 @media (min-width:1280px){
 
     .vegetables-container{
-        min-width: 1280px;
+        max-width: 1280px;
     }
 
     .vegetables-section{
