@@ -142,6 +142,7 @@
     flex: 1;
     padding: 100px 100px;
     min-width:0;
+    max-width:640px;
   }
 
   .how-it-works-img {
@@ -152,6 +153,7 @@
     flex: 1;
     padding: 100px 100px;
     min-width:0;
+    max-width:640px;
   }
 
   .how-it-works-title{
