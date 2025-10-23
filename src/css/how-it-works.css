@@ -143,6 +143,8 @@
     padding: 100px 100px;
     min-width:0;
     max-width:640px;
+    position: relative;
+    z-index: 1;
   }
 
   .how-it-works-img {
@@ -154,6 +156,8 @@
     padding: 100px 100px;
     min-width:0;
     max-width:640px;
+    position: relative;
+    z-index: 1;
   }
 
   .how-it-works-title{
