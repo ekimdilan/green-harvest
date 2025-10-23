@@ -136,16 +136,15 @@
 @media (min-width: 1280px) {
   .how-it-works {
     flex-direction: row;
-    margin-top:796px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
   }
 
   .hiw-section-image {
     flex: 1;
     padding: 100px 100px;
     min-width:0;
-    max-width:640px;
-    position: relative;
-    z-index: 1;
   }
 
   .how-it-works-img {
@@ -156,9 +155,6 @@
     flex: 1;
     padding: 100px 100px;
     min-width:0;
-    max-width:640px;
-    position: relative;
-    z-index: 1;
   }
 
   .how-it-works-title{

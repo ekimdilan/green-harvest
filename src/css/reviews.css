@@ -34,7 +34,7 @@
 }
 
 .reviews-description {
-
+  font-family: 'Inter Tight', sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;   
@@ -54,6 +54,7 @@
   list-style-type: none;
   scrollbar-width: none;
   
+  
 }
 .reviews-list::-webkit-scrollbar {
   display: none;
@@ -70,6 +71,7 @@
   box-sizing: border-box;
   scroll-snap-align: start;
   margin-top: 40px;
+  
 }
 
 
