@@ -89,7 +89,7 @@ address {
   display: flex;
   gap: 8.89px;
 }
-.icon-logo {
+.footer-icon-logo {
   width: 168px;
   height: 16px;
 }
@@ -138,7 +138,7 @@ address {
     gap: 318px;
     justify-content: space-between;
   }
-  .icon-logo {
+  .footer-icon-logo {
     width: 216px;
     height: 20px;
   }
