@@ -61,15 +61,15 @@
 
 
 .review-card {
-  flex: 0 0 100%;
-  padding: 20px 16px;
-  border: 1px solid #D4BFC4;
-  border-radius: 24px;
-  background-color: #FBFBFB;
+  flex: 0 0 100% ;
+  padding: 20px 16px ;
+  border: 1px solid #D4BFC4 ;
+  border-radius: 24px ;
+  background-color: #FBFBFB ;
   text-align: center;
   box-sizing: border-box;
-  scroll-snap-align:start;
-  margin-top:40px;
+  scroll-snap-align: start;
+  margin-top: 40px;
 }
 
 
