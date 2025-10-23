@@ -1,24 +1,22 @@
 .hero-container {
   width: 100%;
-  height: 740px;
+  height: auto;
   background-color: #576f35;
   display: flex;
   align-items: center;
   justify-content: flex-start;
   flex-direction: column;
-  padding: 100px 0px 0px;
+  padding: 100px 0 0;
   gap: 40px;
   margin: 0 auto;
 }
 .hero-text {
   width: 335px;
-  height: auto;
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: column;
-  padding: 0px;
-  color: #fff;
+  color: #fbfbfb;
   gap: 20px;
 }
 .hero-text h1 {
@@ -39,8 +37,16 @@
 }
 .hero-image img {
   width: 100%;
-  height: 372px;
+  height: 100%;
   object-fit: cover;
+  object-position: 50% 35%;
+  display: block;
+}
+
+.hero-image {
+  width: 100%;
+  overflow: hidden;
+  aspect-ratio: 1 / 1;
 }
 
 @media screen and (min-width: 768px) {
@@ -51,7 +57,7 @@
     flex-direction: column;
     align-items: center;
     gap: 58px;
-    padding: 120px 0px 0px;
+    padding: 120px 0 0;
   }
 
   .hero-text {
@@ -74,12 +80,16 @@
 
   .hero-image {
     width: 100%;
+    height: 520px;
+    overflow: hidden;
+    aspect-ratio: auto;
   }
 
   .hero-image img {
     width: 100%;
-    height: 480px;
+    height: 100%;
     object-fit: cover;
+    object-position: 40% 28%;
     display: block;
   }
 }
