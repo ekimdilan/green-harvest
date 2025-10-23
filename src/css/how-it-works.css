@@ -73,7 +73,7 @@
     counter-increment: step-counter; 
     background-color: white; 
     border-radius: 15px; 
-    padding: 12px 25px; 
+    padding: 12px 27px; 
     margin-bottom: 16px;
     display: flex;
     align-items: center;
@@ -141,6 +141,10 @@
     gap:24px;
   }
 
+  .hiw-steps-list li{
+  padding: 12px 25px; 
+ }
+
   .hiw-step-text{
     font-size:16px;
   }          
@@ -185,6 +189,10 @@
   .hiw-steps-list{
     gap:24px;
   }
+
+  .hiw-steps-list li {
+  padding: 12px 25px; 
+ }
 
    .hiw-step-text{
     font-size:16px;
