@@ -141,6 +141,7 @@
   .hiw-section-image {
     flex: 1;
     padding: 100px 100px;
+    min-width:0;
   }
 
   .how-it-works-img {
@@ -150,6 +151,7 @@
   .hiw-section-content {
     flex: 1;
     padding: 100px 100px;
+    min-width:0;
   }
 
   .how-it-works-title{
