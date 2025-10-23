@@ -137,6 +137,8 @@
   .how-it-works {
     flex-direction: row;
     margin: 0 auto;
+    position: relative;
+    z-index: 1;
   }
 
   .hiw-section-image {
