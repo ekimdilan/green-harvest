@@ -53,6 +53,7 @@
   scroll-behavior: smooth;
   list-style-type: none;
   scrollbar-width: none;
+  max-width:344px;
   
 }
 .reviews-list::-webkit-scrollbar {
@@ -70,7 +71,7 @@
   box-sizing: border-box;
   scroll-snap-align: start;
   margin-top: 40px;
-  max-width:344px;
+  
 }
 
 
