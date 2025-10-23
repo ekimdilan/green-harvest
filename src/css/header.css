@@ -261,9 +261,9 @@ ul li {
   .container-menu {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    padding-left: 0;
-    padding-right: 0;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
     position: relative;
     padding-top: 32px;
   }
