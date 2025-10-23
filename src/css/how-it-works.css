@@ -97,6 +97,11 @@
 .hiw-step-text {
   font-weight: 400;       
   font-style: normal;
+  color:#858585;
+}
+
+.hiw-text-highlight{
+  color:#141414;
 }
 
 /* TABLET */
