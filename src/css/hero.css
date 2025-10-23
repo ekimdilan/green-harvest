@@ -95,6 +95,8 @@
     position: absolute;
     height: 796px;
     top: 0px;
+    position: relative;
+    z-index: 2;
   }
 
   .hero-text {
