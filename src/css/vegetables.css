@@ -19,11 +19,12 @@
 .vegetables-description {
   color: white;
   font-weight: 500;
-  height: 80px;
+  /* height: 80px; */
   font-size: 14px;
-  width: 335px;
+  /* width: 335px; */
   line-height: 20px;
   margin-bottom: 40px;
+  overflow: hidden;
 }
 
 .vegetables-product-list-desktop {
