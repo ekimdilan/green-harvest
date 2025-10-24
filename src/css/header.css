@@ -263,8 +263,9 @@ ul li {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding: 0;
     padding-left: 100px;
-    padding-right: 100px;
+    padding-right: 90px;
     position: absolute;
     padding-top: 32px;
   }
