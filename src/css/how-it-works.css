@@ -113,8 +113,9 @@
   }
 
   .how-it-works-img {
-    width: 640px;
-    height: 640px;
+    width: 100%;
+    min-height: 640px;
+    border-radius: 50px;
   }
 
   .hiw-section-content {
@@ -160,6 +161,7 @@
     margin: 0 auto;
     position: relative;
     z-index: 1;
+    height: 760px;
   }
 
   .hiw-section-image {
@@ -171,6 +173,7 @@
   .how-it-works-img {
     width: 100%;
     margin: 0;
+    height: 528px;
   }
 
   .hiw-section-content {
@@ -182,7 +185,7 @@
   }
 
   .hiw-section-header {
-    margin-bottom: 60px;
+    margin-bottom: 0px;
   }
 
   .how-it-works-title {
@@ -192,7 +195,7 @@
   }
 
   .how-it-works-description {
-    margin-bottom: 104px;
+    margin-bottom: 60px;
     font-size: 16px;
   }
 
