@@ -1,22 +1,19 @@
-
 .reviews {
-  background-color: #FBFBFB;
+  background-color: #fbfbfb;
   padding: 80px 20px;
-  font-family: "Inter Tight", sans-serif;
+  font-family: 'Inter Tight', sans-serif;
   text-align: center;
   box-sizing: border-box;
-  }
+}
 
 .reviews * {
   margin: 0;
   padding: 0;
-
 }
 .reviews-container {
   max-width: 375px;
   margin: 0 auto;
   text-align: left;
-
 }
 
 .reviews-title {
@@ -30,20 +27,19 @@
   max-width: 335px;
 }
 .reviews-title span {
-  color: #576F35;
+  color: #576f35;
 }
 
 .reviews-description {
   font-family: 'Inter Tight', sans-serif;
   font-weight: 500;
   font-size: 14px;
-  line-height: 20px;   
-  color: #141414;      
+  line-height: 20px;
+  color: #141414;
   max-width: 335px;
-  margin: 0; 
+  margin: 0;
   text-align: left;
 }
-
 
 .reviews-list {
   display: flex;
@@ -53,27 +49,22 @@
   scroll-behavior: smooth;
   list-style-type: none;
   scrollbar-width: none;
-  
-  
 }
 .reviews-list::-webkit-scrollbar {
   display: none;
 }
 
-
 .review-card {
-  flex: 0 0 100% ;
-  padding: 20px 16px ;
-  border: 1px solid #D4BFC4 ;
-  border-radius: 24px ;
-  background-color: #FBFBFB ;
+  flex: 0 0 100%;
+  padding: 20px 16px;
+  border: 1px solid #d4bfc4;
+  border-radius: 24px;
+  background-color: #fbfbfb;
   text-align: center;
   box-sizing: border-box;
   scroll-snap-align: start;
   margin-top: 40px;
-  
 }
-
 
 .review-img {
   width: 56px;
@@ -81,7 +72,6 @@
 }
 
 .review-name {
-
   text-transform: uppercase;
   color: #141414;
   margin-bottom: 8px;
@@ -99,65 +89,56 @@
   letter-spacing: 0;
   color: #858585;
   text-align: center;
-  margin:8px 7px;
+  margin: 8px 7px;
 }
 
-
-
 @media (min-width: 768px) {
-.reviews {
-  padding: 100px 32px;
-  
+  .reviews {
+    padding: 100px 32px;
   }
-
 
   .reviews-container {
     max-width: 600px;
-  } 
+  }
 
-  .reviews-title{
+  .reviews-title {
     font-size: 64px;
     line-height: 64px;
     max-width: 100%;
     letter-spacing: -0.015em;
     padding-left: 10px;
   }
-  .reviews-description{
-      font-size: 16px;
+  .reviews-description {
+    font-size: 16px;
     max-width: 100%;
-    
   }
-.review-text {
-  font-size: 16px;
-}
-.reviews-list {
+  .review-text {
+    font-size: 16px;
+  }
+  .reviews-list {
     display: flex;
     gap: 24px;
-    overflow-x: auto; 
+    overflow-x: auto;
     scroll-snap-type: x mandatory;
-  
-    
   }
 
   .review-card {
-    flex: 0 0 calc(50% - 12px); 
-    scroll-snap-align: start; 
-     max-width: none;
+    flex: 0 0 calc(50% - 12px);
+    scroll-snap-align: start;
+    max-width: none;
   }
 }
-
 
 @media (min-width: 1280px) {
   .reviews {
     padding: 100px 100px;
-  }  
-  .reviews-container{
-    max-width: 1158px;
-    margin: 0 auto;
-   
- 
-  }          
-    .reviews-title{
+  }
+  .reviews-container {
+    min-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .reviews-title {
     max-width: 553px;
     font-size: 64px;
     line-height: 64px;
@@ -166,37 +147,32 @@
     margin: 0 auto 32px;
     margin: 0;
     padding-bottom: 24px;
-    
-  }    
-   .reviews-description {
+  }
+  .reviews-description {
     font-size: 16px;
     line-height: 24px;
     max-width: 553px;
-    margin: 0; 
-    text-align: left; 
+    margin: 0;
+    text-align: left;
   }
   .reviews-list {
     display: flex;
     padding: 0;
-    overflow-x: visible;/*kaydırmayı kapatıyorum*/
-    scroll-snap-type: none;/*kaydırma hizalamayı kapatıyorum*/
-    gap:24px;
+    overflow-x: visible; /*kaydırmayı kapatıyorum*/
+    scroll-snap-type: none; /*kaydırma hizalamayı kapatıyorum*/
+    gap: 24px;
     justify-content: flex-start;
-  }       
+  }
   .review-card {
-   flex: 0 0 calc((100% - 48px) / 3); /*3 kartı yanyana diziyorum*/
+    flex: 0 0 calc((100% - 48px) / 3); /*3 kartı yanyana diziyorum*/
     scroll-snap-align: none;
     max-width: none;
-    
-
-  }         
-    .review-text{
-      max-width: 288px;
-      font-size: 16px;
-      line-height: 20px;
-      font-weight: 500;
-      text-align: center;
-    }
-
+  }
+  .review-text p {
+    max-width: 288px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+    text-align: center;
+  }
 }
-
