@@ -25,6 +25,7 @@
   font-size: 14px;
   line-height: 1.42857;
   padding-bottom: 40px;
+  font-style: normal;
 }
 .footer-link {
   color: #fbfbfb;
@@ -35,6 +36,7 @@
   text-transform: uppercase;
   text-decoration: none;
   white-space: nowrap;
+  font-style: normal;
 }
 .footer-ul {
   padding: 0;
@@ -60,12 +62,14 @@ address {
   line-height: 1.42857;
   font-size: 14px;
   font-weight: 700;
+  font-style: normal;
 }
 .footer-address {
   color: #fbfbfb;
   font-size: 14px;
   font-weight: 700;
   width: 179px;
+  font-style: normal;
 }
 .footer-fourt-div {
   display: flex;
@@ -78,6 +82,7 @@ address {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.42857;
+  font-style: normal;
 }
 
 .footer-info {
@@ -85,6 +90,7 @@ address {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.42857;
+  font-style: normal;
 }
 .footer-logo-svg {
   display: flex;
