@@ -35,8 +35,8 @@
 .hero-image {
   height: 372px;
   background-image: image-set(
-    url('/src/images/pic-mobile-1x.jpg') 1x,
-    url('/src/images/pic-mobile-2x.jpg') 2x
+    url('../images/pic-mobile-1x.jpg') 1x,
+    url('../images/pic-mobile-2x.jpg') 2x
   );
 }
 
@@ -65,8 +65,8 @@
   .hero-image {
     height: 536px;
     background-image: image-set(
-      url('/src/images/pic-tablet-1x.jpg') 1x,
-      url('/src/images/pic-tablet-2x.jpg') 2x
+      url('../images/pic-tablet-1x.jpg') 1x,
+      url('../images/pic-tablet-2x.jpg') 2x
     );
   }
   .hero-img {
@@ -101,8 +101,8 @@
     flex-shrink: 0;
     height: auto;
     background-image: image-set(
-      url('/src/images/pic-desktop-1x.jpg') 1x,
-      url('/src/images/pic-desktop-2x.jpg') 2x
+      url('../images/pic-desktop-1x.jpg') 1x,
+      url('../images/pic-desktop-2x.jpg') 2x
     );
   }
 
