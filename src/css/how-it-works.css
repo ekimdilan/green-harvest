@@ -22,11 +22,14 @@
   padding: 40px 20px;
   overflow: hidden;
   text-align: center;
+  min-height: 532px;
 }
 
 .how-it-works-img {
   display: block;
-  max-width: 100%;
+  min-width: 335px;
+  min-height: 452px;
+  position: absolute;
   height: auto;
   border-radius: 30px;
   object-fit: cover;
@@ -41,7 +44,7 @@
 
 .hiw-section-content {
   background-color: #576f35;
-  padding: 40px 20px;
+  padding: 80px 20px;
 }
 
 .how-it-works-title {
