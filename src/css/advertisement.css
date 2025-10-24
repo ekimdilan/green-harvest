@@ -14,7 +14,7 @@
   line-height: 52px;
   margin: 0 auto;
   text-align: left;
-  letter-spacing: -1.5px;
+  letter-spacing: -0.015em;
 }
 .promo-content span {
   background-color: #576f35;

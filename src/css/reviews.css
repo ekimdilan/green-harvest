@@ -19,7 +19,7 @@
 .reviews-title {
   font-weight: 600;
   font-size: 48px;
-  letter-spacing: -0.01em;
+  letter-spacing: -0.015em;
   line-height: 52px;
   color: #141414;
   text-transform: uppercase;
@@ -78,7 +78,7 @@
   font-weight: 600;
   font-size: 18px;
   line-height: 20px;
-  letter-spacing: 0.015em;
+  letter-spacing: -0.015em;
   margin-top: 20px;
 }
 

@@ -315,7 +315,7 @@ ul li {
     display: flex;
     align-items: center;
     gap: 6px;
-    letter-spacing: 0.4px;
+    letter-spacing: -0.015em;
   }
 
   .shop-now button {
