@@ -30,6 +30,7 @@
     height: auto; 
     border-radius: 30px; 
     object-fit: cover;
+    margin: 0 auto;
 }
 
 .hiw-section-content{
@@ -168,7 +169,7 @@
   }
 
   .how-it-works-img {
-    width: 440px;
+    width: 100%;
   }
 
   .hiw-section-content {
