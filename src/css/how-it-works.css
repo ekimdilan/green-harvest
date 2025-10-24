@@ -22,15 +22,12 @@
     padding:40px 20px;
     overflow: hidden;
     text-align: center;
-}
-
-.how-it-works-img{
-    display: block;
-    max-width: 100%;
-    height: auto; 
-    border-radius: 30px; 
-    object-fit: cover;
-    margin: 0 auto;
+    background-image: image-set(
+      url(../images/hiw-mobile-@1x.png) 1x,
+      url(../images/hiw-mobile-@2x.png) 2x
+    );
+    background-repeat:no-repeat;
+    background-size: cover;
 }
 
 .hiw-section-content{
@@ -111,11 +108,12 @@
 @media (min-width: 768px) {
   .hiw-section-image {
     padding: 100px 64px;
-  }
-
-  .how-it-works-img {
-    width: 640px;
-    height:640px;
+        background-image: image-set(
+      url(../images/hiw-tablet-@1x.png) 1x,
+      url(../images/hiw-tablet-@2x.png) 2x
+    );
+    background-repeat:no-repeat;
+    background-size: cover;
   }
 
   .hiw-section-content {
@@ -166,11 +164,15 @@
     flex: 1;
     padding: 100px 100px;
     min-width:0;
-  }
-
-  .how-it-works-img {
-    width: 100%;
-    margin:0;
+    max-width:640px;
+    position: relative;
+    z-index: 1;
+        background-image: image-set(
+      url(../images/hiw-desktop-@1x.png) 1x,
+      url(../images/hiw-desktop-@2x.png) 2x
+    );
+    background-repeat:no-repeat;
+    background-size: cover;
   }
 
   .hiw-section-content {
@@ -178,6 +180,10 @@
     flex-direction:column;
     justify-content:center;
     padding: 100px 100px;
+    min-width:0;
+    max-width:640px;
+    position: relative;
+    z-index: 1;
     width:50%;
   }
 
