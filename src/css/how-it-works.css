@@ -42,8 +42,8 @@
   font-family: 'Inter Tight', sans-serif;
   text-transform: uppercase;
   font-weight: 600;
-  font-size: 24px;
-  line-height: 24px;
+  font-size: 28px;
+  line-height: 28px;
   letter-spacing: -0.015em;
   color: #fbfbfb;
   margin-bottom: 16px;
@@ -51,7 +51,6 @@
 
 .hiw-highlight {
   color: #d4bfc4;
-  font-style: italic;
 }
 
 .how-it-works-description {

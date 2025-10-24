@@ -25,7 +25,8 @@
 h2 {
   font-weight: 600;
   font-size: 48px;
-  line-height: 1.2;
+  line-height: 52px;
+  letter-spacing: -1.5px;
   text-transform: uppercase;
   color: #fbfbfb;
 }
@@ -37,7 +38,7 @@ h2 .blushword {
 .h2-title p {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.5;
+  line-height: 20px;
   color: #fbfbfb;
 }
 
