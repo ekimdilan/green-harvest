@@ -434,8 +434,8 @@ ul li {
     transform-origin: center;
     object-position: 50% 50%;
     background-image: image-set(
-      url(../images/your-order-tablet-@1x.jpg) 1x,
-      url(../images/your-order-tablet-@2x.jpg) 2x
+      url(../images/your-order-desktop-@1x.jpg) 1x,
+      url(../images/your-order-desktop-@2x.jpg) 2x
     );
     background-repeat: no-repeat;
     background-size: cover;
