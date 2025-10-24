@@ -17,7 +17,7 @@
   font-weight: 600;
   font-size: 52px;
   line-height: 1.08;
-  letter-spacing: -1.5%;
+  letter-spacing: -1.5px;
   text-transform: uppercase;
   color: #fbfbfb;
   overflow: hidden;
@@ -61,6 +61,7 @@
 
   .hero-text {
     font-size: 16px;
+    width: 90%;
   }
 }
 

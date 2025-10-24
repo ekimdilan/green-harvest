@@ -250,6 +250,9 @@ ul li {
 /* Tablet */
 
 @media (min-width: 768px) {
+  .modal-body {
+    padding-left: 20px;
+  }
   .order-container {
     max-width: 768px;
     margin: 0 auto;
@@ -337,7 +340,7 @@ ul li {
   .modal-content .your-order-img {
     overflow: hidden;
     border-radius: 15px;
-    max-height: 316px;
+    min-height: 316px;
     max-width: 576px;
     width: 100%;
     object-fit: cover;
