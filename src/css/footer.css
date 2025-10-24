@@ -113,6 +113,7 @@ address {
   }
   .footer-p {
     font-size: 16px;
+    line-height: 1.25;
   }
   .footer-nav ul {
     gap: 24px;
