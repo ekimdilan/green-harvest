@@ -22,29 +22,20 @@
   padding: 40px 20px;
   overflow: hidden;
   text-align: center;
-  min-height: 532px;
 }
 
 .how-it-works-img {
   display: block;
-  min-width: 335px;
-  min-height: 452px;
-  position: absolute;
+  max-width: 100%;
   height: auto;
   border-radius: 30px;
   object-fit: cover;
   margin: 0 auto;
-  background-image: image-set(
-    url(../images/how-it-mobile@1x.jpg) 1x,
-    url(../images/how-it-mobile@2x.jpg) 2x
-  );
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .hiw-section-content {
   background-color: #576f35;
-  padding: 80px 20px;
+  padding: 40px 20px;
 }
 
 .how-it-works-title {
