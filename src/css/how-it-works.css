@@ -20,15 +20,16 @@
 .hiw-section-image {
     background-color: #7A3145;
     padding: 40px 20px;
-    max-height:532px ;
+    height:532px ;
 }
 
 
 .hiw-image-placeholder {
     overflow: hidden;
     object-fit: cover;
+    height: 100%;
+    background-position: center;
     border-radius: 30px;
-    height: auto;
     width: 100%;
     background-image: image-set(
     url(../images/how-it-works-mobile-@1x.png) 1x,
@@ -115,7 +116,7 @@
 @media (min-width: 768px) {
   .hiw-section-image {
     padding: 100px 64px;
-    max-height:840px;
+    height:840px;
   }
 
   .hiw-image-placeholder {
