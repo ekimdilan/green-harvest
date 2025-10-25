@@ -1,0 +1,187 @@
+.footer {
+  background-color: #7a3145;
+}
+.footer-container {
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 375px;
+  margin: 0 auto;
+  font-style: normal;
+}
+.footer-first-div {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.footer-logo {
+  color: #fbfbfb;
+  text-decoration: none;
+}
+.footer-p {
+  color: #fbfbfb;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.42857;
+  padding-bottom: 40px;
+  font-style: normal;
+}
+.footer-link {
+  color: #fbfbfb;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: -0.015em;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  font-style: normal;
+}
+/* Footer */
+
+.footer-ul {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.footer-li {
+  list-style: none;
+}
+.footer-third-div {
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+address {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.footer-phone {
+  color: #fbfbfb;
+  text-decoration: none;
+  line-height: 1.42857;
+  font-size: 14px;
+  font-weight: 700;
+  font-style: normal;
+}
+.footer-address {
+  color: #fbfbfb;
+  font-size: 14px;
+  font-weight: 700;
+  width: 179px;
+  font-style: normal;
+}
+.footer-fourt-div {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.policy-cookie {
+  color: #d4bfc4;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.42857;
+  font-style: normal;
+}
+
+.footer-info {
+  color: #d4bfc4;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.42857;
+  font-style: normal;
+}
+.footer-logo-svg {
+  display: flex;
+  gap: 8.89px;
+}
+.footer-icon-logo {
+  width: 168px;
+  height: 16px;
+}
+@media (min-width: 768px) {
+  .footer-container {
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 32px;
+  }
+  .flex-combine1 {
+    display: flex;
+    flex-direction: row;
+    gap: 212px;
+    padding-bottom: 100px;
+    align-items: flex-start;
+  }
+  .footer-first-div {
+    max-width: 265px;
+    gap: 24px;
+  }
+  .footer-p {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+  .footer-nav ul {
+    gap: 24px;
+  }
+  address {
+    gap: 24px;
+  }
+  .footer-phone {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+  .footer-address {
+    font-size: 16px;
+    line-height: 1.25;
+    width: 215px;
+  }
+  .footer-third-div {
+    padding-top: 64px;
+    padding-bottom: 0;
+  }
+  .footer-fourt-div {
+    display: flex;
+    flex-direction: row;
+    gap: 318px;
+    justify-content: space-between;
+  }
+  .footer-icon-logo {
+    width: 216px;
+    height: 20px;
+  }
+  .policy-cookie {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+  .footer-info {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+}
+@media (min-width: 1280px) {
+  .footer-container {
+    min-width: 100%;
+    margin: 0;
+    padding: 52px 100px;
+  }
+  .flex-combine1 {
+    gap: 250px;
+    padding-bottom: 124px;
+    justify-content: space-between;
+  }
+  .flex-combine2 {
+    display: flex;
+    flex-direction: row;
+    gap: 121px;
+  }
+  .footer-third-div {
+    padding-top: 0;
+    width: 216px;
+  }
+  .footer-fourt-div {
+    justify-content: space-between;
+  }
+}
