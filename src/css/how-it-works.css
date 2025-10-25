@@ -20,6 +20,7 @@
 .hiw-section-image {
     background-color: #7A3145;
     padding: 40px 20px;
+    max-height:532px ;
 }
 
 
@@ -114,6 +115,7 @@
 @media (min-width: 768px) {
   .hiw-section-image {
     padding: 100px 64px;
+    max-height:840px;
   }
 
   .hiw-image-placeholder {
@@ -176,7 +178,7 @@
     padding: 100px 100px;
     width: 50%;
   }
-  
+
   .hiw-image-placeholder {
         background-image: image-set(
     url(../images/how-it-works-desktop-@1x.png) 1x,
