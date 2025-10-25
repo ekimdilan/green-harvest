@@ -160,6 +160,7 @@
   }
 
   .hiw-section-image {
+    width: 50%;
     padding: 100px 100px;
         background-image: image-set(
     url(../images/how-it-works-desktop-@1x.png) 1x,
