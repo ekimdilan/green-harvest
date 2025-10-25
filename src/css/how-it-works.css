@@ -19,7 +19,7 @@
 
 .hiw-section-image{
     background-color:#7A3145;
-    padding:40px 20px;
+    border-radius: 30px;
     background-image: image-set(
     url(../images/how-it-works-mobile-@1x.png) 1x,
     url(../images/how-it-works-mobile-@2x.png) 2x
@@ -104,7 +104,7 @@
 /* TABLET */
 @media (min-width: 768px) {
   .hiw-section-image {
-    padding: 100px 64px;
+
         background-image: image-set(
     url(../images/how-it-works-tablet-@1x.png) 1x,
     url(../images/how-it-works-tablet-@2x.png) 2x
@@ -160,7 +160,7 @@
   }
 
   .hiw-section-image {
-    padding: 100px 100px;
+    width: 50%;
         background-image: image-set(
     url(../images/how-it-works-desktop-@1x.png) 1x,
     url(../images/how-it-works-desktop-@2x.png) 2x
