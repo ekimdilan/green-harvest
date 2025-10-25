@@ -11,9 +11,10 @@
 .discount-text {
   font-size: 48px;
   color: #222222;
-  line-height: 1.5;
+  line-height: 76px;
   margin: 0 auto;
   text-align: left;
+  letter-spacing: -0.015em;
 }
 .promo-content span {
   background-color: #576f35;
@@ -35,11 +36,13 @@
 }
 @media (min-width: 768px) and (max-width: 1279px) {
   .promo-section {
-    height: 478px;
     width: 100%;
+    height: auto;
+    padding: 100px 32px;
   }
   .discount-text {
     font-size: 64px;
+    line-height: 64px;
   }
 }
 @media (min-width: 1280px) {
@@ -51,5 +54,6 @@
   }
   .discount-text {
     font-size: 76px;
+    max-width: 98%;
   }
 }

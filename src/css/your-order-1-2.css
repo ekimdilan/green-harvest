@@ -25,7 +25,8 @@
 h2 {
   font-weight: 600;
   font-size: 48px;
-  line-height: 1.2;
+  line-height: 52px;
+  letter-spacing: -0.015em;
   text-transform: uppercase;
   color: #fbfbfb;
 }
@@ -37,7 +38,7 @@ h2 .blushword {
 .h2-title p {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.5;
+  line-height: 20px;
   color: #fbfbfb;
 }
 
@@ -191,7 +192,7 @@ h2 .blushword {
   max-width: none;
   max-height: 48px;
   gap: 8px;
-  letter-spacing: -0.24px;
+  letter-spacing: -0.015em;
   line-height: 1.3;
   font-size: 18px;
   text-transform: uppercase;
@@ -219,11 +220,11 @@ h2 .blushword {
   font-weight: 600;
   font-size: 18px;
   text-transform: uppercase;
-  letter-spacing: -0.24px;
+  letter-spacing: -0.015em;
   line-height: 1.3;
 }
 
-.modal-content .modal-img {
+.modal-content .your-order-img {
   border-radius: 15px;
   margin: 0 auto;
   overflow: hidden;
@@ -235,6 +236,12 @@ h2 .blushword {
   width: 100%;
   aspect-ratio: 1 / 1;
   object-position: 20% 50%;
+  background-image: image-set(
+    url(../images/your-order-mobile-@1x.jpg) 1x,
+    url(../images/your-order-mobile-@2x.jpg) 2x
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 ul li {
@@ -244,6 +251,9 @@ ul li {
 /* Tablet */
 
 @media (min-width: 768px) {
+  .modal-body {
+    padding-left: 20px;
+  }
   .order-container {
     max-width: 768px;
     margin: 0 auto;
@@ -328,14 +338,20 @@ ul li {
     justify-content: space-between;
   }
 
-  .modal-content .modal-img {
+  .modal-content .your-order-img {
     overflow: hidden;
     border-radius: 15px;
-    max-height: 316px;
+    min-height: 316px;
     max-width: 576px;
     width: 100%;
     object-fit: cover;
     object-position: center;
+    background-image: image-set(
+      url(../images/your-order-tablet-@1x.jpg) 1x,
+      url(../images/your-order-tablet-@2x.jpg) 2x
+    );
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
 
@@ -412,7 +428,7 @@ ul li {
     padding-top: 52px;
   }
 
-  .modal-content .modal-img {
+  .modal-content .your-order-img {
     max-width: 428px;
     max-height: 352px;
     height: 352px;
@@ -421,5 +437,11 @@ ul li {
     display: block;
     transform-origin: center;
     object-position: 50% 50%;
+    background-image: image-set(
+      url(../images/your-order-desktop-@1x.jpg) 1x,
+      url(../images/your-order-desktop-@2x.jpg) 2x
+    );
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
