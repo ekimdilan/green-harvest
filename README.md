@@ -52,7 +52,7 @@ Working collaboratively helped us strengthen not only our coding skills but also
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/halenurgurel/code_club_green_harvest.git
+git clone https://github.com/MirayBayan/code_club_green_harvest.git
 cd code_club_green_harvest
 ```
 2. **Install dependencies**
